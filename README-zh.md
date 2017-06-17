@@ -74,6 +74,7 @@ cp env-example .env
 ```
 
 3. 运行这些容器。
+运行前需要检查是否共享了C盘,没有共享则在安装过程中出错
 ```bash
 docker-compose up -d nginx mysql redis
 ```
